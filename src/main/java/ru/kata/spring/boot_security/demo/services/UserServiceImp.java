@@ -77,5 +77,4 @@ public class UserServiceImp implements UserService, UserDetailsService {
         return userRepository.findByUsername(username);
     }
 
-
 }
